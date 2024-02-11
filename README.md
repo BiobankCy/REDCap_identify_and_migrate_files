@@ -1,5 +1,6 @@
 # REDCap identify and migrate files to other project or other REDCap installation
 These scripts are used to identify any file type in a REDCap project using the API, then to download them and add a specific naming structure which can be used to upload correctly to another REDCap project.
+The code has been tested with PHP 7+ in Windows and Linux (Ubunty 20, Rocky 8).
 
 The download scripts that also insclude repeaded measurements are the following:
 * download_files_api.php
